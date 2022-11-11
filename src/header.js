@@ -11,11 +11,11 @@ export default function Header() {
         </div>
         <div>
             <h1>Fullstack Web Developer with a <span>difference</span></h1>
-            <h4>Software Engineering to me is about the unseen, writing codes that makes everyday life automated.
+            <p>Software Engineering to me is about the unseen, writing codes that makes everyday life automated.
 On the click of a button you see your dreams come alive and do not need to worry about the how or the why.
 Leaving an impression with every contact made.
 
-Are you ready to make magic?...</h4>
+Are you ready to make magic?...</p>
             <button type='' href="">Download cv</button>
         </div>
     </div>

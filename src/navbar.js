@@ -10,12 +10,13 @@ export default function NavBar() {
     return (
       <div className='big_header'>
         <div className='header'>
-          <img src={logo} className='logo'/>
+          <div className='logo_container'><img src={logo} className='logo'/></div>
+          
 
           <div className='headers'>
-            <h2>Projects</h2>
-            <h2 className='mid'>Terminologies</h2>
-            <h2>About me</h2>
+            <p>Projects</p>
+            <p className='mid'>Terminologies</p>
+            <p>About me</p>
           </div>
 
           <div className='socials'>
