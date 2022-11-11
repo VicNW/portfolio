@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: poppins;
+  font-size: 25px;
+}
+
+.hero {
+  margin: 70px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  line-height: 1.3em;
+ 
+}
+
+.hero h1 span {
+  background: -webkit-linear-gradient(45deg, rgb(214, 126, 255), rgb(59, 56, 239));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero h4 {
+  font-size: 0.8em;
+  font-weight: 500;
+  margin-right: 50px;
+}
+
+button {
+  background: linear-gradient(45deg, rgb(150, 71, 186), rgb(10, 141, 185));
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: rgb(249, 243, 243);
+  font-weight: 600;
+  border: none;
+}
+
+.picture_div {
+  margin: 10px auto;
+}
+
+.picture {
+  width: 300px;
+  border-radius: 50%;
+  border: solid 5px white;
+}
+
+.big_header {
+  display:grid;
+  place-items: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  margin-top: 70px;
+}
+
+.logo {
+  animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.header h2 {
+  text-align: center;
+  font-size: 0.8em;
+  margin: 0px;
+}
+
+.headers {
+  margin-top: 20px;
+}
+
+.social_div {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(249, 243, 243);
+  border-radius: 50%;
+  display:grid;
+  place-items: center;
+}
+
+.social_div:nth-child(even) {
+  margin: 10px;
+}
+
+.socials {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.twitter {
+  width: 20px;
+  height: auto;
+}
+
+.linkedin {
+   width: 20px;
+  height: auto; 
+}
+
+.github {
+  width: 20px;
+  margin: 0px 10px;
+}
+
+.project_div {
+
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+}
+
+.project_h2 {
+  margin: 50px;
+}
+
+.card {
+  border: solid 1px rgb(233, 223, 223);
+  border-radius: 20px 0px 20px 0px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  padding: 20px;
+  margin: 40px;
+ 
+}
+
+.cardimg {
+  border: solid white;
+  border-radius: 20px 0px 0px 0px;
+  width: 100%;
+  height: auto;
+  /* height: 200px; */
+}
+
+.cardimg img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px 0px 0px 0px;
+}
+
+
+.line {
+  height: 2px;
+  width: 80%;
+  background: linear-gradient(45deg, rgb(150, 71, 186), rgb(10, 141, 185));
+}
+
+.card p {
+  font-size: 0.7em;
+
+}
+
+.card a {
+  align-self: flex-start;
+  padding: 7px 20px; 
+}
+
+h2 {
+  margin: 100px 0px 50px 50px;
+}
+
+.skills_scale {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.scale_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10px;
+  margin-top: 15px;
+}
+
+.skills_scale h4 {
+  font-size: 0.7em;
+  font-weight: 500;
+  margin: 0;
+  
+}
+
+.skills_scale p {
+  font-size: 0.4em;
+  font-weight: 300;
+  margin-bottom: -1px;
+}
+
+.scale {
+  height: 8px;
+  background-color: #162950;
+  border-radius: 5px;
+}
+
+.level {
+  height: 100%;
+  background: linear-gradient(45deg, rgb(150, 71, 186), rgb(10, 141, 185));
+  border-radius: 5px;
+}
+
+#level20 {
+  width: 20%;
+}
+
+#level40 {
+  width: 40%;
+}
+
+#level60 {
+  width: 60%;
+}
+
+#level80 {
+  width: 80%;
+}
+
+#level100 {
+  width: 100%;
+}
+
+.tech_div {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.add {
+  margin: 150px 50px 50px;
+
+}
+
+.add > ul {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+}
+
+.about_big_div {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.about_div {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.cross_line {
+  height: 5px;
+  width: 70%;
+ 
+  background-color: white;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.cross_line div {
+  height: 12px;
+  background-color: white;
+  width: 12px;
+  border-radius: 50%;
+}
+
+.about_text{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 0.6em;
+  line-height: 1.1em;
+  width: 80%;
+}
+
+.about_text div{
+  padding: 0px 10px;
+  max-width: 20%;
+}
+
+.year_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 1.1em;
+  width: 72%;
+  margin-bottom: 5px;
+}
+
+.year_div div {
+  max-width: 25%;
+}
+
+.footer {
+  width: 90%;
+  margin: 70px 20px;
+  font-size: 0.8em;
+  max-width: 1000px;
+}
+
+.footer div {
+  margin: 0px;
+}
+
+.footer p {
+  margin: 0;
+  /* line-height: 0.5em; */
+}
+
+.call {
+  padding-top: 50px;
+}
+
+.email {
+  padding: 30px 0px;
+}
+
+@media only screen and (min-width: 500px) {
+
+  .card_grid {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+
+  }
+.card {
+  max-width: 300px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 70px 0px 150px 0px;
+    min-width: 80%;
+    max-width: 1400px;
+    padding: 0px 50px;
+  }
+  .headers {
+    display: flex;
+  }
+
+  .mid {
+    padding: 0px 20px;
+  } 
+  .socials {
+  margin: 0;
+  }
+    .footer{
+      margin: 100px auto 10px ;
+    }
+  .footer_details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  .big_add ul {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+  }
+
+  .big_add li {
+    margin: 10px 50px;
+  }
+
+  .call {
+    padding: 0px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+ 
+
+  .big_hero {
+    margin: 0 auto;
+    max-width: 1400px;
+  }
+
+  .hero h4 {
+    margin: 50px 0px 50px 0px;
+  }
+
+  .picture {
+    margin-left:100px ;
+    width: 430px;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .hero {
+    flex-direction: row-reverse;
+    margin: 70px 50px;
+    align-items: center;
+    justify-content: center;
+    /* max-width: 1000px; */
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .picture {
+    margin-left: 100px;
+    width: 500px;
+  }
+}
+
